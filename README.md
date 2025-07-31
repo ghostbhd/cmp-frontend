@@ -19,15 +19,6 @@ npm start
 # Open browser to http://localhost:5173
 ```
 
-### 🚀 GitHub Repository Setup (for Reviewers)
-This project is ready to be pushed to GitHub for easier review:
-
-```bash
-# Create a new repository on GitHub, then:
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-git push -u origin main
-```
-
 ##  Assumptions and Decisions Made
 
 ### Design Decisions
