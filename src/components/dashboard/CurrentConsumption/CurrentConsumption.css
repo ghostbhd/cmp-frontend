@@ -1,0 +1,76 @@
+.current-consumption-title {
+    font-size: 1.125rem; /* text-lg */
+    font-weight: 600; /* font-semibold */
+    color: #111827; /* text-gray-900 */
+    margin-bottom: 1.5rem; /* mb-6 */
+    text-align: center;
+}
+
+.current-consumption-chart-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pie-chart-relative {
+    position: relative;
+}
+
+.pie-chart-center {
+    position: absolute;
+}
+
+.pie-center-text {
+    text-align: center;
+}
+
+.pie-center-value {
+    font-size: 1.5rem; /* text-2xl */
+    font-weight: 700; /* font-bold */
+    color: #111827; /* text-gray-900 */
+}
+
+.current-consumption-stats {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0.5rem; /* mt-2 */
+}
+
+.stat-item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.stat-badge-used {
+    background-color: #56aba0; /* #56ABA0 */
+    width: 2.5rem; /* w-10 */
+    height: 2.5rem; /* h-10 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stat-badge-remain {
+    background-color: #95b0bf; /* #95B0BF */
+    width: 2.5rem; /* w-10 */
+    height: 2.5rem; /* h-10 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stat-text {
+    margin-left: 0.5rem; /* ml-2 */
+}
+
+.stat-label {
+    font-size: 0.875rem; /* text-sm */
+    color: #4b5563; /* text-[#6E6F78] */
+}
+
+.stat-value {
+    font-size: 1rem; /* text-base */
+    font-weight: 500; /* font-medium */
+    color: #111827; /* default text color */
+}

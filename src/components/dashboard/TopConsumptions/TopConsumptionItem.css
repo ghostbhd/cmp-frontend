@@ -1,0 +1,48 @@
+.top-consumption-item-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 0;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.top-consumption-rank-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.top-consumption-rank-bg {
+    background-color: #b0dfd6; /* #B0DFD6 */
+    width: 2.5rem; /* w-10 */
+    height: 2.5rem; /* h-10 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem; /* rounded-lg */
+    font-size: 0.875rem; /* text-sm */
+    font-weight: 500; /* font-medium */
+    color: #000000; /* text-black */
+}
+
+.top-consumption-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-consumption-iccid {
+    font-size: 0.875rem; /* text-sm */
+    font-weight: 500; /* font-medium */
+    color: #111827; /* text-gray-900 */
+}
+
+.top-consumption-details {
+    display: flex;
+    align-items: center;
+    margin-top: 0.25rem; /* mt-1 */
+}
+
+.dot-separator {
+    margin: 0 0.5rem; /* mx-2 */
+}

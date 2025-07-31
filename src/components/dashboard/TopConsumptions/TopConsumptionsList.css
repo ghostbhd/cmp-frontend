@@ -1,0 +1,29 @@
+/* src/components/dashboard/TopConsumptions/TopConsumptionsList.css */
+.top-consumptions-container {
+    /* background, padding, border-radius via Tailwind */
+}
+
+.top-consumptions-header {
+    /* flex and margin via utility classes */
+}
+
+.top-consumptions-title {
+    font-size: 1.125rem; /* text-lg */
+    font-weight: 600; /* font-semibold */
+    color: #111827; /* text-gray-900 */
+}
+
+.top-consumptions-icon {
+    width: 1.25rem; /* h-5 */
+    height: 1.25rem; /* w-5 */
+    color: #9ca3af; /* text-gray-400 */
+}
+
+.top-consumptions-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.divider {
+    border-bottom: 1px solid #e5e7eb; /* border-gray-200 */
+}
